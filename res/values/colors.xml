@@ -21,7 +21,7 @@
     <color name="text_color_black">#212121</color>
     <color name="text_color_disabled">#bdbdbd</color>
     <color name="accent_blue">#4285f4</color>
-    <color name="text_color_blue">@color/accent_blue</color>
+    <color name="text_color_blue">@*android:color/material_deep_teal_300</color>
     <color name="text_color_draft_red">@color/primary_color</color>
     <color name="text_color_hint_grey">#949494</color>
     <color name="gray_text_color">#777777</color>
@@ -29,7 +29,7 @@
     <color name="light_gray">#cccccc</color>
     <color name="very_light_grey">#f5f5f5</color>
     <!-- if you want to make something blue, please try to use THIS blue -->
-    <color name="mail_app_blue">@android:color/holo_blue_light</color>
+    <color name="mail_app_blue">@*android:color/material_deep_teal_500</color>
     <color name="divider_color">#e5e5e5</color>
 
     <!-- Conversation List Item Colors -->
@@ -37,7 +37,7 @@
     <color name="subject_text_color_read">@color/text_color_grey</color>
     <color name="subject_text_color_unread">@color/text_color_black</color>
     <color name="snippet_text_color">@color/text_color_grey</color>
-    <color name="date_text_color_unread">#4285f4</color>
+    <color name="date_text_color_unread">@*android:color/material_deep_teal_300</color>
     <color name="date_text_color_read">@color/text_color_grey</color>
     <color name="message_info_text_color">@color/gray_text_color</color>
     <color name="ap_background_color">#fff1f1f2</color>
@@ -52,7 +52,7 @@
     <color name="default_folder_foreground_color">@color/gray_text_color</color>
 
     <!-- Folder List/Drawer colors -->
-    <color name="account_item_selected_text_color">@color/mail_app_blue</color>
+    <color name="account_item_selected_text_color">@*android:color/material_deep_teal_700</color>
     <color name="folder_list_heading_text_color">@color/text_color_medium_grey</color>
     <color name="list_background_color">@android:color/white</color>
     <color name="drawer_item_activated_background_color">#12000000</color>
@@ -160,7 +160,7 @@
     <color name="swipe_refresh_color3">#ff4285f4</color>
     <color name="swipe_refresh_color4">#fff4b400</color>
 
-    <color name="badge_background_color">#edb802</color>
+    <color name="badge_background_color">@*android:color/material_deep_teal_300</color>
 
     <color name="loading_messages_background_color">#eeeeee</color>
 
@@ -169,8 +169,8 @@
     <color name="mail_orange">#e7790d</color>
     <color name="statusbar_orange">#d06d0c</color>
 
-    <color name="primary_color">@color/mail_orange</color>
-    <color name="primary_dark_color">@color/statusbar_orange</color>
+    <color name="primary_color">@*android:color/material_deep_teal_500</color>
+    <color name="primary_dark_color">@*android:color/material_deep_teal_700</color>
     <color name="mail_activity_status_bar_color">@android:color/transparent</color>
     <color name="action_mode_background">@color/text_color_grey</color>
     <color name="action_mode_statusbar_color">#616161</color>
